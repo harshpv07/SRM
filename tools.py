@@ -107,4 +107,5 @@ def parser_file(input_file):
 
 
 if __name__ == "__main__":
-    print(parser_file("./Harsh_Resume_SWE.pdf")) 
+    file_name = "./Harsh_Resume_SWE.pdf"
+    print(parser_file(file_name)) 
