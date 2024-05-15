@@ -19,8 +19,9 @@ classes = np.array(['Advocate', 'Arts', 'Automation Testing', 'Blockchain',
 def predictProfile(sentence):
     vectorizer = TfidfVectorizer(sublinear_tf=True,stop_words='english',max_features=1500)
     profiles = list(classes)
+    vectorizer.fit(sentence)
     s = vectorizer.transform(sentence)
-    load_model = pickle.load(open('./knnpickle_file' , 'rb'))
+    load_model = pickle.load(open('./SRM/knnpickle_file' , 'rb'))
     num = load_model.predict(s)[0]
     return profiles[num]
 
