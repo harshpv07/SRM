@@ -82,8 +82,7 @@ def parser_file(input_file):
  "Network protocols","TCP/IP","HTTP","SSLo7", "Firewall configuration", "Intrusion detection/prevention systems (IDS/IPS)", "VPN technologies", "Security best practices", "Penetration testing",
  "SAP modules (e.g., SAP ECC, SAP S/4HANA)", "ABAP programming language", "SAP Fiori/UI5", "SAP integration technologies", "SAP HANA database",
  "Civil engineering principles", "Structural analysis and design", "Construction management", "AutoCAD/Civil 3D", "Building codes and regulations", "Geotechnical engineering",
- "Legal research", "Case management", "Courtroom litigation", "Legal writing", "Client counseling", "Negotiation skills"
-    ]
+ "Legal research", "Case management", "Courtroom litigation", "Legal writing", "Client counseling", "Negotiation skills"]
 
     skillset = []
 
